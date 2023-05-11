@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bill.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>R Resturent</h1>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="Part 1">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    Full Name: <input type="text" id="Name"> <br>
+                    Your Email: <input type="text" id="Email id"> <br>
+                    Your Mobile: <input type="text" id="Mobile">
+                </fieldset>
+            </div>
+            <div class="Part 2">
+                <fieldset>
+                    <legend>Your OrdersSa</legend>
+                    Samosa (Rs. 10): <input type="text" id="Samosa"> <br>
+                    Kachodi (Rs. 12): <input type="text" id="Kachodi"> <br>
+                    Badapaw (Rs. 60): <input type="text" id="Badapaw"> <br>
+                    Maggi (Rs. 50): <input type="text" id="Maggi"> <br>
+                </fieldset>
+            </div>
+        </div>
+        <div class="container">
+            <fieldset>
+                <legend>Your Bill</legend>
+                <h3>Your Name: <span id="name2"></span></h3>
+                <h3>Email: <span id="Email2"></span></h3>
+                <h3>Mobile: <span id="Mobile2"></span></h3>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Manu</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody id="Bill">
+                        <tr>
+                            <td>Samosa</td>
+                            <td>Rs. 10</td>
+                            <td>1</tr>
+                            <td>10x1 = 10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <h2>Total Amount: Rs. <span id="Amount">0</span></h2>
+        </div>
+    </div>
+</body>
+</html>
